@@ -1,0 +1,7 @@
+ytmusicapi>=1.7.0
+spotapi>=1.0.0
+python-dotenv>=1.0.0
+# spotapi.utils.saver imports these at module load even if you only use Login/cookies (optional extras on PyPI)
+pymongo>=4.6.0
+redis>=5.0.0
+websockets>=12.0

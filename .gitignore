@@ -1,0 +1,27 @@
+# Dependencies and builds
+node_modules/
+dist/
+.venv/
+__pycache__/
+*.pyc
+
+# Local config and credentials
+.env
+secrets/
+ytmusic_headers.json
+spotify_session.json
+oauth.json
+
+# Scraped data and browser state (cookies)
+data/*
+!data/.gitkeep
+.playwright/
+.playwright-state/
+
+# Editors and OS
+.idea/
+.cursor/
+.vscode/
+.DS_Store
+
+*.log
